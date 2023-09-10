@@ -4893,9 +4893,17 @@ textarea.form-control-lg {
   padding-top: 3rem;
 }
 
+.carousel-caption-mobile{
+  padding-bottom: 0rem;
+}
+
 @media (min-width: 576px) {
   .mobile-carousel{
     padding-top: 2rem;
+  }
+
+  .carousel-caption-mobile{
+    padding-bottom: 1rem;
   }
   .list-group-horizontal-sm {
     flex-direction: row;
@@ -4925,6 +4933,10 @@ textarea.form-control-lg {
     padding-top: 1rem;
   }
 
+  .carousel-caption-mobile{
+    padding-bottom: 2rem;
+  }
+
   .list-group-horizontal-md {
     flex-direction: row;
   }
@@ -4951,6 +4963,10 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .mobile-carousel{
     padding-top: 0rem;
+  }
+
+  .carousel-caption-mobile{
+    padding-bottom: 3rem;
   }
   .list-group-horizontal-lg {
     flex-direction: row;
